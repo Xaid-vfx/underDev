@@ -1,0 +1,7 @@
+.box{
+    border: 2px solid blue;
+    padding: 1rem;
+    margin: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}

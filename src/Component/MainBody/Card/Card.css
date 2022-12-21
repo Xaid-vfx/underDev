@@ -1,0 +1,33 @@
+.cardContainer{
+    border: 2px solid ;
+    /* height: 38rem; */
+    width: 9rem;
+}
+.filter{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+}
+.topics{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+.coloumn{
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+.mainData{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+}

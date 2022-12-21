@@ -1,0 +1,68 @@
+.accordin_maxsize{
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid brown; */
+    transition: all 0.4s;
+
+}
+.settingBox{
+    display: flex;
+    justify-content: flex-end;
+    transition: all 0.4s;
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+.accordion{
+    /* border: 2px solid black; */
+    color: white;
+    background-color: #2f2f2f;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+    transition: all 0.4s;
+}
+.panel{
+
+    /* border: 2px solid green; */
+}
+
+.btnBox{
+    /* border: 2px solid royalblue; */
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    transition: all 0.4s;
+}
+.closeBtn{
+    margin-right: 1rem;
+    border: 1px solid white;
+    background-color: royalblue;
+    color: white;
+    padding: 4px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.applyChangeBtn{
+    margin-right: 1rem;
+    border: 1px solid white;
+    background-color: royalblue;
+    color: white;
+    padding: 4px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.4s;
+    
+}
+
+.allBtnConatiner{
+    /* border: 2px solid darkred; */
+    min-width: 60rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
